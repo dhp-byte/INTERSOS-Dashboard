@@ -115,7 +115,7 @@ def inject_theme_css() -> None:
         .im-hero {{
             position: relative; overflow: hidden; border-radius: 14px;
             margin-bottom: 1rem; padding: 1.8rem 2.2rem; min-height: 190px;
-            background: linear-gradient(135deg, {t['primary_dark']} 0%, #0B1220 100%);
+            background: linear-gradient(135deg, {t['primary_dark']} 0%, {t['bg']} 85%);
             border: 1px solid {t['border']};
             display: flex; flex-direction: column; justify-content: flex-end;
         }}
